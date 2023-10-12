@@ -3,7 +3,7 @@ import { Section } from "./Section/Section";
 import { FeedBackOptions } from "./FeedBackOptions/FeedBackOptions";
 import { Statistics } from "./Statistics/Statistics";
 import { Notification } from "./Notification/Notification";
-export const App = () => {
+export  const App = () => {
   const [feedback, setFeedbackState] = useState({
     good: 0,
     neutral: 0,
